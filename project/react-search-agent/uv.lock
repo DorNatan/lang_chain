@@ -1181,6 +1181,7 @@ dependencies = [
     { name = "langchain-core" },
     { name = "langchain-openai" },
     { name = "langchain-tavily" },
+    { name = "openai" },
     { name = "python-dotenv" },
     { name = "requests" },
 ]
@@ -1193,6 +1194,7 @@ requires-dist = [
     { name = "langchain-core", specifier = ">=0.3.78" },
     { name = "langchain-openai", specifier = ">=0.3.35" },
     { name = "langchain-tavily", specifier = ">=0.2.12" },
+    { name = "openai", specifier = ">=2.2.0" },
     { name = "python-dotenv", specifier = ">=1.1.1" },
     { name = "requests", specifier = ">=2.32.5" },
 ]
